@@ -15,6 +15,7 @@ let product2 = {productName: "Keyboard", quantity: 1, price: 150}
 product1 = product2
 product2.productName = "Motherboard"
 
+
 console.log(product1.productName);
 
 
