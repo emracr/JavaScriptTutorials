@@ -1,2 +1,2 @@
 # JavaScript
-Starter kit for my JS Courses
+JavaScript ES5+ & OOP
