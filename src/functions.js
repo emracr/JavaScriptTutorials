@@ -2,6 +2,10 @@ function add() {
     console.log("added to database")
 }
 
+let variableFunction = function(){
+    console.log("I am function")
+}
+
 let addFunction = () => {
     add()
 }
@@ -14,7 +18,6 @@ let product2 = {productName: "Keyboard", quantity: 1, price: 150}
 
 product1 = product2
 product2.productName = "Motherboard"
-
 
 console.log(product1.productName);
 
@@ -53,3 +56,9 @@ let {productName, quantity, price} = product3
 console.log(productName);
 console.log(quantity);
 console.log(price);
+
+
+//prototyping
+let customer = {id: 1, firstName: "Emrullah"}
+customer.lastName = "ACAR"
+console.log(customer.lastName)
