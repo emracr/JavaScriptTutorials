@@ -12,3 +12,8 @@ let userService = new UserService(loggerService)
 userService.add(user)
 console.log(userService.list())
 console.log(userService.getById(1))
+
+userService.load();
+console.log(userService.customers)
+console.log(userService.employees)
+console.log(userService.errors)
