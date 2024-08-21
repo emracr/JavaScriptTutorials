@@ -62,3 +62,14 @@ console.log(price);
 let customer = {id: 1, firstName: "Emrullah"}
 customer.lastName = "ACAR"
 console.log(customer.lastName)
+
+
+let populations = [1000, 2000, 3000, [4000, 5000]]
+
+function someFunction([x, y], number){
+    console.log(x)
+    console.log(y)
+    console.log(number)
+}
+
+someFunction(populations)

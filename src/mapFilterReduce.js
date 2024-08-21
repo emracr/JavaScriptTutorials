@@ -10,6 +10,7 @@ cart.map(item => {
     console.log(item);
 })
 
+//filter result a new reference accourred (very important)
 let priceMoreThanTwoThousand = cart.filter(item => item.unitPrice > 2000)
 console.log(priceMoreThanTwoThousand)
 
